@@ -9,4 +9,4 @@ class About(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return {self.title}
+        return self.title
